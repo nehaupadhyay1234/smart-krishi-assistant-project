@@ -1,0 +1,101 @@
+ ```json
+[
+    {
+        "id": 1,
+        "crop": "Rice",
+        "season": "Kharif",
+        "soil": "Clay Soil",
+        "waterPerSqMeter": 5,
+        "irrigationFrequency": "Every 5-7 days",
+        "waterLevel": "High"
+    },
+
+
+    {
+        "id": 2,
+        "crop": "Wheat",
+        "season": "Rabi",
+        "soil": "Loamy Soil",
+        "waterPerSqMeter": 4,
+        "irrigationFrequency": "Every 15-20 days",
+        "waterLevel": "Medium"
+    },
+
+
+    {
+        "id": 3,
+        "crop": "Soybean",
+        "season": "Kharif",
+        "soil": "Black Soil",
+        "waterPerSqMeter": 3,
+        "irrigationFrequency": "Every 10-12 days",
+        "waterLevel": "Medium"
+    },
+
+
+    {
+        "id": 4,
+        "crop": "Cotton",
+        "season": "Kharif",
+        "soil": "Black Soil",
+        "waterPerSqMeter": 6,
+        "irrigationFrequency": "Every 7-10 days",
+        "waterLevel": "High"
+    },
+
+
+    {
+        "id": 5,
+        "crop": "Maize",
+        "season": "Kharif",
+        "soil": "Loamy Soil",
+        "waterPerSqMeter": 4,
+        "irrigationFrequency": "Every 8-10 days",
+        "waterLevel": "Medium"
+    },
+
+
+    {
+        "id": 6,
+        "crop": "Sugarcane",
+        "season": "Annual",
+        "soil": "Loamy Soil",
+        "waterPerSqMeter": 8,
+        "irrigationFrequency": "Every 5-7 days",
+        "waterLevel": "Very High"
+    },
+
+
+    {
+        "id": 7,
+        "crop": "Gram",
+        "season": "Rabi",
+        "soil": "Sandy Loam",
+        "waterPerSqMeter": 2,
+        "irrigationFrequency": "Every 20-25 days",
+        "waterLevel": "Low"
+    },
+
+
+    {
+        "id": 8,
+        "crop": "Millet",
+        "season": "Kharif",
+        "soil": "Sandy Soil",
+        "waterPerSqMeter": 1.5,
+        "irrigationFrequency": "Every 20 days",
+        "waterLevel": "Low"
+    },
+
+
+    {
+        "id": 9,
+        "crop": "Vegetables",
+        "season": "All Season",
+        "soil": "Loamy Soil",
+        "waterPerSqMeter": 3.5,
+        "irrigationFrequency": "Every 3-5 days",
+        "waterLevel": "Medium"
+    }
+]
+```

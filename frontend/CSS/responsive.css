@@ -1,0 +1,377 @@
+ ```css
+/* ==========================================
+   File : frontend/css/responsive.css
+   Smart Krishi Responsive Design
+========================================== */
+
+
+
+/* Tablet Devices */
+
+@media(max-width:1024px){
+
+
+
+    header h1{
+
+        font-size:28px;
+
+    }
+
+
+
+    nav a{
+
+        font-size:16px;
+
+        margin:0 8px;
+
+    }
+
+
+
+    .dashboard-container{
+
+        width:95%;
+
+    }
+
+
+
+    #map{
+
+        height:350px;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/* Mobile Devices */
+
+@media(max-width:768px){
+
+
+
+body{
+
+    font-size:14px;
+
+}
+
+
+
+
+
+
+header{
+
+    padding:15px;
+
+}
+
+
+
+header h1{
+
+    font-size:24px;
+
+}
+
+
+
+
+nav{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+
+
+nav a{
+
+    font-size:16px;
+
+}
+
+
+
+
+
+
+
+/* Container */
+
+
+.container{
+
+    width:95%;
+
+    margin:20px auto;
+
+}
+
+
+
+
+
+
+
+/* Login/Register */
+
+
+.login-box,
+.register-box{
+
+    padding:20px;
+
+}
+
+
+
+.login-box h1,
+.register-box h1{
+
+    font-size:24px;
+
+}
+
+
+
+
+
+
+input,
+textarea,
+button{
+
+    font-size:15px;
+
+}
+
+
+
+
+
+
+
+/* Hero Section */
+
+
+.hero{
+
+    padding:35px 15px;
+
+}
+
+
+
+.hero h2{
+
+    font-size:26px;
+
+}
+
+
+
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+
+
+
+
+
+
+/* Feature Cards */
+
+
+.features{
+
+    grid-template-columns:1fr;
+
+    padding:15px;
+
+}
+
+
+
+
+
+
+
+/* About */
+
+
+.about-section{
+
+    width:95%;
+
+    padding:20px;
+
+}
+
+
+
+
+
+
+/* Contact */
+
+
+.contact-section{
+
+    width:95%;
+
+}
+
+
+
+.contact-container{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+
+
+
+/* Dashboard */
+
+
+.dashboard-header h1{
+
+    font-size:22px;
+
+}
+
+
+
+.dashboard-header button{
+
+    position:static;
+
+    margin-top:15px;
+
+}
+
+
+
+
+.dashboard-container{
+
+    padding:10px;
+
+}
+
+
+
+
+
+.card{
+
+    padding:15px;
+
+}
+
+
+
+
+
+#map{
+
+    height:280px;
+
+}
+
+
+
+
+
+.result-card{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+
+
+select{
+
+    font-size:14px;
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* Small Mobile */
+
+@media(max-width:480px){
+
+
+
+header h1{
+
+    font-size:20px;
+
+}
+
+
+
+button{
+
+    width:100%;
+
+}
+
+
+
+.card h2{
+
+    font-size:20px;
+
+}
+
+
+
+#map{
+
+    height:250px;
+
+}
+
+
+
+}
+```

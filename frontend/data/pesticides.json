@@ -1,0 +1,125 @@
+ ```json
+[
+    {
+        "id": 1,
+        "crop": "Rice",
+        "commonPests": [
+            "Brown Plant Hopper",
+            "Stem Borer"
+        ],
+        "pesticideType": "Insecticide",
+        "pesticidePerSqMeter": 0.002,
+        "dosage": "2 ml per sq meter",
+        "safetyLevel": "Use with protective equipment"
+    },
+
+
+    {
+        "id": 2,
+        "crop": "Wheat",
+        "commonPests": [
+            "Aphids",
+            "Termites"
+        ],
+        "pesticideType": "Insecticide",
+        "pesticidePerSqMeter": 0.0015,
+        "dosage": "1.5 ml per sq meter",
+        "safetyLevel": "Avoid excess spraying"
+    },
+
+
+    {
+        "id": 3,
+        "crop": "Soybean",
+        "commonPests": [
+            "Leaf Caterpillar",
+            "Pod Borer"
+        ],
+        "pesticideType": "Organic Pesticide",
+        "pesticidePerSqMeter": 0.001,
+        "dosage": "1 ml per sq meter",
+        "safetyLevel": "Prefer biological control"
+    },
+
+
+    {
+        "id": 4,
+        "crop": "Cotton",
+        "commonPests": [
+            "Bollworm",
+            "Whitefly"
+        ],
+        "pesticideType": "Insecticide",
+        "pesticidePerSqMeter": 0.0025,
+        "dosage": "2.5 ml per sq meter",
+        "safetyLevel": "Follow recommended dose"
+    },
+
+
+    {
+        "id": 5,
+        "crop": "Maize",
+        "commonPests": [
+            "Fall Armyworm"
+        ],
+        "pesticideType": "Bio Pesticide",
+        "pesticidePerSqMeter": 0.0015,
+        "dosage": "1.5 ml per sq meter",
+        "safetyLevel": "Spray during early infestation"
+    },
+
+
+    {
+        "id": 6,
+        "crop": "Sugarcane",
+        "commonPests": [
+            "Early Shoot Borer",
+            "White Grub"
+        ],
+        "pesticideType": "Insecticide",
+        "pesticidePerSqMeter": 0.003,
+        "dosage": "3 ml per sq meter",
+        "safetyLevel": "Use recommended quantity only"
+    },
+
+
+    {
+        "id": 7,
+        "crop": "Gram",
+        "commonPests": [
+            "Pod Borer"
+        ],
+        "pesticideType": "Organic Pesticide",
+        "pesticidePerSqMeter": 0.001,
+        "dosage": "1 ml per sq meter",
+        "safetyLevel": "Avoid spraying near harvest"
+    },
+
+
+    {
+        "id": 8,
+        "crop": "Millet",
+        "commonPests": [
+            "Shoot Fly"
+        ],
+        "pesticideType": "Bio Pesticide",
+        "pesticidePerSqMeter": 0.001,
+        "dosage": "1 ml per sq meter",
+        "safetyLevel": "Use eco-friendly methods"
+    },
+
+
+    {
+        "id": 9,
+        "crop": "Vegetables",
+        "commonPests": [
+            "Aphids",
+            "Leaf Miner"
+        ],
+        "pesticideType": "Organic Pesticide",
+        "pesticidePerSqMeter": 0.0015,
+        "dosage": "1.5 ml per sq meter",
+        "safetyLevel": "Wash vegetables before use"
+    }
+]
+```

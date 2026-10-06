@@ -1,0 +1,492 @@
+ ```css
+/* ==========================================
+   File : frontend/css/style.css
+   Smart Krishi Common Styling
+========================================== */
+
+
+
+/* Reset */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:Arial, sans-serif;
+
+}
+
+
+
+body{
+
+    background:#f5fff5;
+
+    color:#333;
+
+}
+
+
+
+
+
+/* Header */
+
+header{
+
+    background:#2e7d32;
+
+    color:white;
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+
+
+header h1{
+
+    font-size:32px;
+
+}
+
+
+
+nav{
+
+    margin-top:15px;
+
+}
+
+
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:0 15px;
+
+    font-size:18px;
+
+}
+
+
+
+nav a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+
+
+
+
+/* Common Container */
+
+.container{
+
+    width:90%;
+
+    max-width:500px;
+
+    margin:40px auto;
+
+}
+
+
+
+
+
+
+
+/* Login/Register Box */
+
+
+.login-box,
+.register-box{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.1);
+
+    text-align:center;
+
+}
+
+
+
+.login-box h1,
+.register-box h1{
+
+    color:#2e7d32;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.login-box h2,
+.register-box h2{
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+
+
+
+/* Form */
+
+
+.form-group{
+
+    text-align:left;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.form-group label{
+
+    display:block;
+
+    margin-bottom:5px;
+
+    font-weight:bold;
+
+}
+
+
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+
+
+textarea{
+
+    resize:none;
+
+}
+
+
+
+
+
+
+
+/* Buttons */
+
+
+button{
+
+    background:#388e3c;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+
+
+button:hover{
+
+    background:#1b5e20;
+
+}
+
+
+
+
+
+/* Links */
+
+
+a{
+
+    color:#2e7d32;
+
+}
+
+
+
+
+
+
+
+/* Home Section */
+
+
+.hero{
+
+    padding:60px 20px;
+
+    text-align:center;
+
+    background:#e8f5e9;
+
+}
+
+
+
+.hero h2{
+
+    color:#1b5e20;
+
+    font-size:35px;
+
+}
+
+
+
+.hero p{
+
+    margin:20px;
+
+    font-size:18px;
+
+}
+
+
+
+
+
+/* Feature Cards */
+
+
+.features{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(
+    auto-fit,
+    minmax(220px,1fr)
+    );
+
+    gap:20px;
+
+    padding:30px;
+
+}
+
+
+
+.feature-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    box-shadow:
+    0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+
+
+.feature-card h3{
+
+    color:#2e7d32;
+
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+
+/* About Section */
+
+
+.about-section{
+
+    width:90%;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+}
+
+
+
+.about-section h2{
+
+    color:#2e7d32;
+
+    margin:20px 0;
+
+}
+
+
+
+.about-section p{
+
+    line-height:1.7;
+
+}
+
+
+
+.about-section li{
+
+    margin:10px;
+
+}
+
+
+
+
+
+
+
+/* Contact Section */
+
+
+.contact-section{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(
+    auto-fit,
+    minmax(300px,1fr)
+    );
+
+    gap:25px;
+
+    margin-top:25px;
+
+}
+
+
+
+
+.contact-form,
+.contact-info{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+.contact-info p{
+
+    margin:15px 0;
+
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+footer{
+
+    background:#1b5e20;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+    margin-top:40px;
+
+}
+
+
+
+
+
+
+
+/* Message */
+
+#message,
+#contactStatus{
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+}
+
+```

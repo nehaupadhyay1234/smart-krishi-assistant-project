@@ -1,0 +1,308 @@
+  ```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Contact | Smart Krishi Assistant</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+
+<body>
+
+
+<header>
+
+
+<h1>
+🌾 Smart Krishi Assistant
+</h1>
+
+
+
+<nav>
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="about.html">
+About
+</a>
+
+
+<a href="contact.html">
+Contact
+</a>
+
+
+<a href="login.html">
+Login
+</a>
+
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<section class="contact-section">
+
+
+
+<h2>
+📞 Farmer Support
+</h2>
+
+
+
+<p>
+
+Agar aapko farming calculation,
+crop recommendation ya application use
+karne me koi problem aaye to humse contact kare.
+
+</p>
+
+
+
+
+
+
+
+<div class="contact-container">
+
+
+
+<!-- Contact Form -->
+
+
+<div class="contact-form">
+
+
+<h3>
+Send Message
+</h3>
+
+
+
+<form id="contactForm">
+
+
+<label>
+Name
+</label>
+
+
+<input
+
+type="text"
+
+id="name"
+
+placeholder="Enter your name"
+
+required
+
+>
+
+
+
+
+
+<label>
+Mobile Number
+</label>
+
+
+<input
+
+type="text"
+
+id="mobile"
+
+placeholder="Enter mobile number"
+
+required
+
+>
+
+
+
+
+
+<label>
+Message
+</label>
+
+
+<textarea
+
+id="message"
+
+rows="5"
+
+placeholder="Write your message"
+
+required>
+
+</textarea>
+
+
+
+
+
+<button type="submit">
+
+Send Message
+
+</button>
+
+
+
+</form>
+
+
+
+<p id="contactStatus">
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Contact Information -->
+
+
+<div class="contact-info">
+
+
+<h3>
+Contact Information
+</h3>
+
+
+
+<p>
+📧 Email:
+support@smartkrishi.com
+</p>
+
+
+
+<p>
+📱 Phone:
++91 9876543210
+</p>
+
+
+
+<p>
+🌾 Support:
+Smart Farming Help Center
+</p>
+
+
+
+<p>
+⏰ Timing:
+9 AM - 6 PM
+</p>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+
+<p>
+
+© 2026 Smart Krishi Assistant
+
+</p>
+
+
+</footer>
+
+
+
+
+
+
+<script>
+
+
+document
+.getElementById("contactForm")
+.addEventListener(
+"submit",
+function(e){
+
+
+e.preventDefault();
+
+
+
+document
+.getElementById("contactStatus")
+.innerHTML =
+"✅ Your message has been submitted. We will contact you soon.";
+
+
+
+this.reset();
+
+
+});
+
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
+```

@@ -1,0 +1,356 @@
+ ```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Smart Krishi Dashboard</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/dashboard.css">
+
+
+<!-- Leaflet Map CSS -->
+<link 
+rel="stylesheet" 
+href="https://unpkg.com/leaflet/dist/leaflet.css"
+/>
+
+
+</head>
+
+
+<body>
+
+
+<header class="dashboard-header">
+
+<h1>🌾 Smart Krishi Assistant</h1>
+
+<p>Adivasi Kisan ke liye Smart Farming Solution</p>
+
+<button onclick="logout()">
+Logout
+</button>
+
+</header>
+
+
+
+<section class="dashboard-container">
+
+
+
+<!-- Farmer Information -->
+
+<div class="card">
+
+<h2>👨‍🌾 Farmer Information</h2>
+
+<p id="farmerName">
+</p>
+
+<p id="farmerLocation">
+</p>
+
+</div>
+
+
+
+
+
+<!-- Map Section -->
+
+<div class="card">
+
+
+<h2>🗺️ Apni Zameen Select Kare</h2>
+
+
+<p>
+Map par apni field ke boundary points select kare.
+</p>
+
+
+<div id="map"></div>
+
+
+<h3>
+Total Area:
+<span id="area">
+0
+</span>
+Sq Meter
+</h3>
+
+
+
+<button id="calculateArea">
+
+Calculate Area
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Crop Selection -->
+
+
+<div class="card">
+
+
+<h2>🌱 Crop Information</h2>
+
+
+<label>
+Select Crop
+</label>
+
+
+<select id="cropSelect">
+
+<option value="">
+Select Crop
+</option>
+
+<option value="Rice">
+Rice
+</option>
+
+<option value="Wheat">
+Wheat
+</option>
+
+<option value="Soybean">
+Soybean
+</option>
+
+<option value="Cotton">
+Cotton
+</option>
+
+<option value="Maize">
+Maize
+</option>
+
+<option value="Sugarcane">
+Sugarcane
+</option>
+
+<option value="Gram">
+Gram
+</option>
+
+
+</select>
+
+
+<button id="calculate">
+
+Get Recommendation
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Result Section -->
+
+
+<div class="card result-card">
+
+
+<h2>
+📊 Farming Recommendation
+</h2>
+
+
+
+<div class="result-box">
+
+
+<h3>💧 Water Required</h3>
+
+<p id="waterResult">
+0 Liter
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div class="result-box">
+
+
+<h3>🧪 Pesticide Required</h3>
+
+<p id="pesticideResult">
+0 ml
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="result-box">
+
+
+<h3>🌱 Fertilizer</h3>
+
+<p id="fertilizerResult">
+-
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Weather -->
+
+<div class="card">
+
+
+<h2>
+🌦 Weather Information
+</h2>
+
+
+<div id="weatherData">
+
+Weather loading...
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- Report -->
+
+
+<div class="card">
+
+
+<h2>
+📄 Generate Report
+</h2>
+
+
+<button id="generateReport">
+
+Download Farming Report
+
+</button>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<!-- Scripts -->
+
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+<script src="js/map.js"></script>
+
+<script src="js/calculator.js"></script>
+
+<script src="js/weather.js"></script>
+
+<script src="js/report.js"></script>
+
+
+<script>
+
+
+// Display Farmer Data
+
+const user = JSON.parse(
+localStorage.getItem("user")
+);
+
+
+if(user){
+
+document.getElementById("farmerName").innerHTML =
+"Name : " + user.fullName;
+
+
+document.getElementById("farmerLocation").innerHTML =
+"Village : " + user.village;
+
+}
+
+
+
+
+
+function logout(){
+
+localStorage.removeItem("token");
+
+localStorage.removeItem("user");
+
+
+window.location.href="login.html";
+
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>
+```

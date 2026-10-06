@@ -1,0 +1,86 @@
+ ```json
+[
+    {
+        "id": 1,
+        "name": "Rice",
+        "season": "Kharif",
+        "soil": "Clay Soil",
+        "waterRequirement": "High",
+        "waterPerSqMeter": 5,
+        "pesticidePerSqMeter": 0.002,
+        "fertilizer": "Nitrogen rich fertilizer + Urea"
+    },
+
+
+    {
+        "id": 2,
+        "name": "Wheat",
+        "season": "Rabi",
+        "soil": "Loamy Soil",
+        "waterRequirement": "Medium",
+        "waterPerSqMeter": 4,
+        "pesticidePerSqMeter": 0.0015,
+        "fertilizer": "DAP + Potash fertilizer"
+    },
+
+
+    {
+        "id": 3,
+        "name": "Soybean",
+        "season": "Kharif",
+        "soil": "Black Soil",
+        "waterRequirement": "Medium",
+        "waterPerSqMeter": 3,
+        "pesticidePerSqMeter": 0.001,
+        "fertilizer": "Organic compost + Phosphorus"
+    },
+
+
+    {
+        "id": 4,
+        "name": "Cotton",
+        "season": "Kharif",
+        "soil": "Black Soil",
+        "waterRequirement": "High",
+        "waterPerSqMeter": 6,
+        "pesticidePerSqMeter": 0.0025,
+        "fertilizer": "Nitrogen + Potassium fertilizer"
+    },
+
+
+    {
+        "id": 5,
+        "name": "Maize",
+        "season": "Kharif",
+        "soil": "Loamy Soil",
+        "waterRequirement": "Medium",
+        "waterPerSqMeter": 4,
+        "pesticidePerSqMeter": 0.0015,
+        "fertilizer": "Urea + Organic manure"
+    },
+
+
+    {
+        "id": 6,
+        "name": "Sugarcane",
+        "season": "Annual",
+        "soil": "Loamy Soil",
+        "waterRequirement": "Very High",
+        "waterPerSqMeter": 8,
+        "pesticidePerSqMeter": 0.003,
+        "fertilizer": "Nitrogen fertilizer"
+    },
+
+
+    {
+        "id": 7,
+        "name": "Gram",
+        "season": "Rabi",
+        "soil": "Sandy Loam",
+        "waterRequirement": "Low",
+        "waterPerSqMeter": 2,
+        "pesticidePerSqMeter": 0.001,
+        "fertilizer": "Phosphorus based fertilizer"
+    }
+]
+```

@@ -1,0 +1,81 @@
+ ```json
+[
+  {
+    "id": 1,
+    "name": "Rice",
+    "season": "Kharif",
+    "duration": "120 Days",
+    "waterPerSqMeter": 1200,
+    "pesticidePerSqMeter": 2,
+    "fertilizer": "NPK 20:20:20",
+    "soilType": "Clay",
+    "temperature": "20-35°C"
+  },
+  {
+    "id": 2,
+    "name": "Wheat",
+    "season": "Rabi",
+    "duration": "110 Days",
+    "waterPerSqMeter": 600,
+    "pesticidePerSqMeter": 1,
+    "fertilizer": "Urea + DAP",
+    "soilType": "Loamy",
+    "temperature": "15-25°C"
+  },
+  {
+    "id": 3,
+    "name": "Soybean",
+    "season": "Kharif",
+    "duration": "100 Days",
+    "waterPerSqMeter": 800,
+    "pesticidePerSqMeter": 1.5,
+    "fertilizer": "DAP + Potash",
+    "soilType": "Black Soil",
+    "temperature": "20-30°C"
+  },
+  {
+    "id": 4,
+    "name": "Cotton",
+    "season": "Kharif",
+    "duration": "180 Days",
+    "waterPerSqMeter": 900,
+    "pesticidePerSqMeter": 2.5,
+    "fertilizer": "NPK + Zinc",
+    "soilType": "Black Soil",
+    "temperature": "25-35°C"
+  },
+  {
+    "id": 5,
+    "name": "Maize",
+    "season": "Kharif",
+    "duration": "95 Days",
+    "waterPerSqMeter": 700,
+    "pesticidePerSqMeter": 1.2,
+    "fertilizer": "Nitrogen Rich",
+    "soilType": "Loamy",
+    "temperature": "18-30°C"
+  },
+  {
+    "id": 6,
+    "name": "Sugarcane",
+    "season": "Annual",
+    "duration": "12 Months",
+    "waterPerSqMeter": 1500,
+    "pesticidePerSqMeter": 3,
+    "fertilizer": "NPK + Organic Compost",
+    "soilType": "Loamy",
+    "temperature": "25-35°C"
+  },
+  {
+    "id": 7,
+    "name": "Gram",
+    "season": "Rabi",
+    "duration": "100 Days",
+    "waterPerSqMeter": 500,
+    "pesticidePerSqMeter": 0.8,
+    "fertilizer": "DAP",
+    "soilType": "Sandy Loam",
+    "temperature": "18-25°C"
+  }
+]
+```
